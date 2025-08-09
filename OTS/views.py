@@ -6,15 +6,30 @@ from OTS.models import *
 def home(request):
     pass
 
-def CandidateRegistrationForm(request):
+def candidateRegistrationForm(request):
     pass
 
-def CandidateRegistration(request):
+def candidateRegistration(request):
     if request.method == 'POST':
       pass
     
-def LoginViews(request):
+def loginViews(request):
     pass
 
-def CandidateHome(request):
+def candidateHome(request):
+    pass
+
+def testpaper(request):
+    pass
+
+def calculateTestResults(request):
+    pass
+ 
+def testResultHistory(request):
+    pass
+
+def showTestResult(request):
+    pass
+
+def logoutView(request):
     pass
